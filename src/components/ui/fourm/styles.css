@@ -1,0 +1,35 @@
+.getintouch{
+    /* background-color: #E3EDF8; */
+    margin-top: 16vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    
+}
+@media (max-width: 640px){
+    .headingLine{
+        font-size: 24px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    .btnservice{
+        max-width: fit-content;
+    }
+    .serivcesmain{
+        font-size: 24px;
+    }
+    .serivebox{
+        padding-top: 16px;
+        padding-left: 0;
+    }
+    .servicemainbox{
+        padding-top: 24px;
+    }
+    .input{
+        margin-top: 16px;
+        margin-left: -8px;
+        padding-top: 14px;
+        padding-left: 0px;
+        padding-right: -100px;
+    }
+   
+}

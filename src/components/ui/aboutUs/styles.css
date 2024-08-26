@@ -1,0 +1,52 @@
+.section{
+    margin-top: 8vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    overflow: hidden;
+}
+.sectionInside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-one{
+    /* margin-right:20vw; */
+}
+
+.images{
+    width: 40vw;
+    height: 10vh;
+}
+.mobileimg{
+    display: none;
+}
+@media (max-width: 640px) {
+    .section{
+        margin-top: -24px;
+    }
+    .mobileimg{
+        display: block;
+    }
+    .sectionInside{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        .images{
+            display: none;
+        }
+        
+    }
+    .headingNumber{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .section-aboutus{
+        font-size: x-large;
+    }
+    .number-heading{
+        font-size: 0.95rem;
+        font-style: italic;
+        text-align: center;
+        
+    }
+}

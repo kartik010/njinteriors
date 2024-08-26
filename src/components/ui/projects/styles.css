@@ -1,0 +1,36 @@
+.main{
+    margin-top: 16vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cardscroll{
+   display: flex;
+   gap:4; 
+}
+.mobileproject{
+    display: none;
+}
+@media (max-width: 640px) {
+    .mobileproject{
+        display: block;
+        max-width: 64vw;
+        margin: auto;
+    }
+    .cardscroll{
+        display: none;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .headingLine1{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
